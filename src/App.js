@@ -1,25 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Parent from './Parent';
+import CounterButton from './CounterButton';
+import Button from './Button';
+import FunctionalComp from './FunctionalComp';
+import NumberPrinter from './NumberPrinter';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Parent /> {/* Props */}
+      <CounterButton /> {/* State */} 
+      <Button /> {/* React Event Handling */}
+      <FunctionalComp /> {/* Functional Component */}
+      <div className='container' style={{
+          backgroundColor: 'beige', 
+          width:300, 
+          padding: 20,
+          height:'fit-content', 
+          display:'flex', 
+          justifyContent: 'center', 
+          alignItems:'center',
+          flexDirection:'column',
+          borderRadius: 20
+        }}>
+        <h1>Number Printer</h1>
+        <NumberPrinter />
+        </div>
     </div>
   );
-}
+};
 
 export default App;
+
+
+// Functional components are simpler and just JavaScript functions. They receive props as arguments.
+//Hooks: Functional components use Hooks like useState to manage state and useEffect to handle side effects.
