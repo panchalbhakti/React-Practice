@@ -4,6 +4,7 @@ import CounterButton from './CounterButton';
 import Button from './Button';
 import FunctionalComp from './FunctionalComp';
 import NumberPrinter from './NumberPrinter';
+import UseEffect from './UseEffect';
 
 const App = () => {
   return (
@@ -26,6 +27,7 @@ const App = () => {
         <h1>Number Printer</h1>
         <NumberPrinter />
         </div>
+        <UseEffect />
     </div>
   );
 };
@@ -35,3 +37,4 @@ export default App;
 
 // Functional components are simpler and just JavaScript functions. They receive props as arguments.
 //Hooks: Functional components use Hooks like useState to manage state and useEffect to handle side effects.
+// useEffect: useEffect is a hook in React that lets you perform side effects in functional components.
