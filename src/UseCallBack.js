@@ -18,4 +18,4 @@ const useCallBack = () => {
 
 export default useCallBack;
 
-//
+//useCallback in React helps you save a function so it doesn’t get recreated every time your component re-renders. 
