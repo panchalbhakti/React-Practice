@@ -5,6 +5,7 @@ import Button from './Button';
 import FunctionalComp from './FunctionalComp';
 import NumberPrinter from './NumberPrinter';
 import UseEffect from './UseEffect';
+import UseMemo from './UseMemo';
 
 const App = () => {
   return (
@@ -28,6 +29,7 @@ const App = () => {
         <NumberPrinter />
         </div>
         <UseEffect />
+        <UseMemo />
     </div>
   );
 };
