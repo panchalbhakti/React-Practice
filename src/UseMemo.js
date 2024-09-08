@@ -30,3 +30,7 @@ const ItemList = () => {
 }
 
 export default ItemList;
+
+// code is filtering a list of items based on what the user types (searchTerm). It uses useMemo to remember the filtered list, so it doesn't need to filter again unless the searchTerm changes.
+
+//useMemo hook: It only runs the filter when the user types something new, instead of running every time the page updates.

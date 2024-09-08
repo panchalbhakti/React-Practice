@@ -30,6 +30,7 @@ const App = () => {
         </div>
         <UseEffect />
         <UseMemo />
+        <UseCallBack />
     </div>
   );
 };

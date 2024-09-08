@@ -19,3 +19,5 @@ const Example = () => {
 }
 
 export default Example;
+
+//useEffect is a tool in React that lets you run extra code after your component has done something, like showing on the screen. This extra code is called a side effect and can include things like: getting data from the internet.
