@@ -22,7 +22,7 @@ const ItemList = () => {
             />
             <ul>
         {filteredItems.map(item => (
-          <li key={item}>{item}</li>
+          <li key={item}>{items}</li>
         ))}
       </ul>
         </div>

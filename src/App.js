@@ -6,6 +6,7 @@ import FunctionalComp from './FunctionalComp';
 import NumberPrinter from './NumberPrinter';
 import UseEffect from './UseEffect';
 import UseMemo from './UseMemo';
+import UseCallBack from './UseCallBack';
 
 const App = () => {
   return (

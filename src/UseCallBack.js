@@ -1,6 +1,6 @@
 import React, {useCallback, useState} from "react";
 
-const useCallback = () => {
+const useCallBack = () => {
     const[count, setCount] = useState(0);
 
     const handleClick = useCallback(()=> {
@@ -16,4 +16,6 @@ const useCallback = () => {
     )
 }
 
-export default useCallback;
+export default useCallBack;
+
+//
