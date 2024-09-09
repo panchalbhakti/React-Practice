@@ -1,16 +1,16 @@
 import React, {useCallback, useState} from "react";
 
 const useCallBack = () => {
-    const[count, setCount] = useState(0);
+    const[count, setCount] = useState();
 
     const handleClick = useCallback(()=> {
         console.log("Button was clicked!");
     }, [count]);
 
     return(
-        <div>
+        <div className="container">
             <p>Count : {count}</p>
-            <button onClick={() => setCount(count + 1)}>Increase Count</button>
+            <button onClick={() => setCount(count + 1)}>Increase Counts</button>
             <button onClick={handleClick}>Click me!</button>
         </div>
     )
