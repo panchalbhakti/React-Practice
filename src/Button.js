@@ -9,7 +9,7 @@ const ButtonClick = () => {
 
   return (
     <div>
-      <button onClick={handleClick}>Click Me!</button>
+      <button onClick={handleClick}>Click!</button>
       <p>{message}</p>
     </div>
   );
