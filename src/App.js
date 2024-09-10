@@ -7,6 +7,7 @@ import NumberPrinter from './NumberPrinter';
 import UseEffect from './UseEffect';
 import UseMemo from './UseMemo';
 import UseCallBack from './UseCallBack';
+import UseEffect2 from './UseEffect2';
 
 const App = () => {
   return (
@@ -32,6 +33,7 @@ const App = () => {
         <UseEffect />
         <UseMemo />
         <UseCallBack />
+        <UseEffect2 />
     </div>
   );
 };

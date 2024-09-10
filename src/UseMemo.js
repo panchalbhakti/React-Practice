@@ -1,7 +1,7 @@
 import React, {useMemo, useState} from "react";
 
 const ItemList = () => {
-    const [searchTerm, setSearchTerm] = useState("");
+    const [searchTerm, setSearchTerm] = useState('0');
 
     const items = ["apple", "banana", "mango", "kiwi", "pineapple"];
 

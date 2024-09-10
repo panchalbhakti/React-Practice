@@ -1,7 +1,7 @@
 import React, {useCallback, useState} from "react";
 
 const useCallBack = () => {
-    const[count, setCount] = useState();
+    const[count, setCount] = useState([]);
 
     const handleClick = useCallback(()=> {
         console.log("Button was clicked!");
