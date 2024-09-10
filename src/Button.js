@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 const ButtonClick = () => {
-  const [message, setMessage] = useState('');
+  const [message, setMessage] = useState('0');
 
   const handleClick = () => {
     setMessage('Button was clicked!');
